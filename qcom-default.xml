@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="base.xml"/>
+
+  <remote name="qcom"    fetch="https://github.com/qualcomm-linux"/>
+
+  <project name="meta-qcom" remote="qcom" path="sources/meta-qcom" revision="ec80a36bce11d8182b4bb2a6fa0359adfeccde0a" upstream="scarthgap"/>
+
+</manifest>
