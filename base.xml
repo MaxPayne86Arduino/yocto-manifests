@@ -12,8 +12,8 @@
   <remote name="arduino"   fetch="https://github.com/MaxPayne86Arduino"/>
   
   <project name="bitbake" remote="oe" path="sources/bitbake" revision="5427500e4f23580962126d2b27ed627ca237fe4a" upstream="master"/>
-  <project name="openembedded-core" remote="oe" path="sources/openembedded-core" revision="000a044d285d93ded3280f27360165c943bb5d7e" upstream="whinlatter"/>
-  <project name="meta-yocto" remote="yp" path="sources/meta-yocto" revision="6973ca663aaa9c3ab517ee960ab7985a5bf54c07" upstream="whinlatter"/>
+  <project name="openembedded-core" remote="oe" path="sources/openembedded-core" revision="d3e757f21403554e7064c5fa2b353080d14d2ce7" upstream="master"/>
+  <project name="meta-yocto" remote="yp" path="sources/meta-yocto" revision="4c156ef673f8ff7c967b2b34dd1d366e1b74d41c" upstream="master"/>
   
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="d28d0a23615f4d91d125fdcd247a71245087dab3" upstream="whinlatter"/>
   <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="73460c53949658ab6c8b46269c3a69caccd3f745" upstream="whinlatter"/>
