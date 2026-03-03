@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 # bitbake requires a utf8 filesystem encoding
 ENV LANG en_US.UTF-8
@@ -18,14 +18,14 @@ RUN apt-get update \
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-        android-sdk-libsparse-utils android-sdk-ext4-utils ca-certificates \
+        android-sdk-libsparse-utils ca-certificates \
         chrpath cpio diffstat file gawk g++ iproute2 iputils-ping less libgcc1 libmagickwand-dev \
         libmath-prime-util-perl libsdl1.2-dev libssl-dev locales \
         openjdk-11-jre openssh-client perl-modules python3 python3-requests \
         make patch repo sudo texinfo vim-tiny wget whiptail libelf-dev git-lfs screen \
         socket corkscrew curl xz-utils tcl libtinfo5 device-tree-compiler python3-pip python3-dev \
         tmux libncurses-dev vim zstd lz4 liblz4-tool libc6-dev \
-        tree rsync \
+        tree rsync bzip2 \
     && ln -s /usr/bin/python3 /usr/bin/python \
     && pip3 --no-cache-dir install expandvars jsonFormatter \
     && apt-get autoremove -y \
