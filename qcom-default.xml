@@ -5,6 +5,6 @@
 
   <remote name="qcom"    fetch="https://github.com/qualcomm-linux"/>
 
-  <project name="meta-qcom" remote="qcom" path="sources/meta-qcom" revision="7c76bb843cdce73c535bafc968046be6af18b2a1" upstream="master"/>
+  <project name="meta-qcom" remote="qcom" path="sources/meta-qcom" revision="695af355f7d6edb68fe12c34ae1a6e609ce235f9" upstream="master"/>
 
 </manifest>
