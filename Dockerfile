@@ -13,7 +13,6 @@ ARG DEV_USER_PASSWD=builder
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        software-properties-common \
-    && add-apt-repository ppa:fio-maintainers/ppa \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
