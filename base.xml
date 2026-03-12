@@ -21,6 +21,6 @@
   <project name="meta-security" remote="yp" path="sources/meta-security" revision="18c6a7b5d836cc35c5131e33449b786111eceaf5" upstream="whinlatter"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="8f03a0cc8950ef5d5e4f11d9ae494946d1991e45" upstream="whinlatter"/>
 
-  <project name="meta-arduino" remote="arduino" path="sources/meta-arduino" revision="6b41f22bfa9c0aed617154cb0d09e8665fe6e03b" upstream="scarthgap"/>
+  <project name="meta-arduino" remote="arduino" path="sources/meta-arduino" revision="9325ef83826bc22dd2280677ec8e2816611e97af" upstream="master"/>
 
 </manifest>
