@@ -3,9 +3,14 @@
 
   <include name="base.xml"/>
 
-  <remote name="qcom"    fetch="https://github.com/qualcomm-linux"/>
+  <remote name="qcom"        fetch="https://github.com/qualcomm-linux"/>
+  <remote name="rsalveti"    fetch="https://github.com/ricardosalveti"/>
+  <remote name="audioreach"  fetch="https://github.com/AudioReach"/>
 
-  <project name="meta-qcom" remote="qcom" path="sources/meta-qcom" revision="6e9ec6ab905de1d035fd884f7324b6291f5f7553" upstream="master"/>
-  <project name="meta-qcom-3rdparty" remote="qcom" path="sources/meta-qcom-3rdparty" revision="e73c46c321a72aa481c9ff165a77365e5ee7f08e" upstream="main"/>
+  <project name="meta-qcom" remote="qcom" path="sources/meta-qcom" revision="2293ce86e90017e13b854f59b14a6ac6d6164ee2" upstream="master"/>
+  <project name="meta-qcom-3rdparty" remote="rsalveti" path="sources/meta-qcom-3rdparty" revision="4d6b67c3406a5296f65e9223b090503197bb1de2" upstream="fw"/>
+
+  <project name="meta-qcom-distro" remote="qcom" path="sources/meta-qcom-distro" revision="23c23d2a6e904418517cf66507c3078829ae7bdf" upstream="main"/>
+  <project name="meta-audioreach" remote="audioreach" path="sources/meta-audioreach" revision="4feaf103f9525e467fbefddbefd2e55465c88656" upstream="master"/>
 
 </manifest>

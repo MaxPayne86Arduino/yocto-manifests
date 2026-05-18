@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default revision="whinlatter" sync-j="4"/>
+  <default revision="master" sync-j="4"/>
 
   <remote name="yp"        fetch="https://git.yoctoproject.org"/>
   <remote name="oe"        fetch="https://github.com/openembedded"/>
@@ -9,17 +9,21 @@
   <remote name="ossystems" fetch="https://github.com/OSSystems"/>
   <remote name="qt"        fetch="https://github.com/YoeDistro"/>
   <remote name="timesys"   fetch="https://github.com/TimesysGit"/>
+  <remote name="uptane"    fetch="https://github.com/uptane"/>
   <remote name="arduino"   fetch="https://github.com/MaxPayne86Arduino"/>
-  
-  <project name="bitbake" remote="oe" path="sources/bitbake" revision="5427500e4f23580962126d2b27ed627ca237fe4a" upstream="master"/>
-  <project name="openembedded-core" remote="oe" path="sources/openembedded-core" revision="d3e757f21403554e7064c5fa2b353080d14d2ce7" upstream="master"/>
-  <project name="meta-yocto" remote="yp" path="sources/meta-yocto" revision="4c156ef673f8ff7c967b2b34dd1d366e1b74d41c" upstream="master"/>
-  
-  <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="d28d0a23615f4d91d125fdcd247a71245087dab3" upstream="whinlatter"/>
+
+  <project name="bitbake" remote="oe" path="sources/bitbake" revision="cb28befc56d201cace72d70891e731b955fb567f" upstream="master"/>
+  <project name="openembedded-core" remote="oe" path="sources/openembedded-core" revision="42fa856a00ac16b2a7a83d7ecfa60a5be192b16c" upstream="master"/>
+  <project name="meta-yocto" remote="yp" path="sources/meta-yocto" revision="904846ae078ee20de073040ebb77c86e19250f56" upstream="master"/>
+
+  <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="335045d3fb440cbb6de0716ffd7dd043bbd3f6ad" upstream="master"/>
   <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="73460c53949658ab6c8b46269c3a69caccd3f745" upstream="whinlatter"/>
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="cf20f8bd1366d41094c945597b95dd746e87b871" upstream="whinlatter"/>
-  <project name="meta-security" remote="yp" path="sources/meta-security" revision="18c6a7b5d836cc35c5131e33449b786111eceaf5" upstream="whinlatter"/>
-  <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="8f03a0cc8950ef5d5e4f11d9ae494946d1991e45" upstream="whinlatter"/>
+  <project name="meta-security" remote="yp" path="sources/meta-security" revision="9265f142f3890df2d00d71d13b19e95a082707ed" upstream="master"/>
+  <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="4ba5825ee16fcded87f4d555b4ed7a7615dc67ac" upstream="master"/>
+
+  <project name="meta-updater" remote="uptane" path="sources/meta-updater" revision="a8af24357121dc8614fd98f234b73d55005b0cc9" upstream="master"/>
+  <project name="meta-selinux" remote="yp" path="sources/meta-selinux" revision="f7306d7af4425553684a860df6f6d0ee66efba31" upstream="master"/>
 
   <project name="meta-arduino" remote="arduino" path="sources/meta-arduino" revision="6d923be15ba1931186e1a3257aaedb6b7f243151" upstream="master"/>
 
