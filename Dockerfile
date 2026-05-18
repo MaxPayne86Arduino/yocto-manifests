@@ -33,6 +33,9 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && locale-gen en_US.UTF-8
 
+# Install Arduino CLI via official install script
+RUN curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+
 # Create the user which will run the SDK binaries.
 RUN useradd -c $DEV_USER_NAME \
         -d /home/$DEV_USER \
