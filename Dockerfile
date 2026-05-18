@@ -38,11 +38,11 @@ RUN curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/inst
 
 # Create the user which will run the SDK binaries.
 RUN useradd -c $DEV_USER_NAME \
-        -d /home/$DEV_USER \
-        -G sudo,dialout,floppy,plugdev,users \
-        -m \
-        -s /bin/bash \
-        $DEV_USER
+    -d /home/$DEV_USER \
+    -G sudo,dialout,floppy,plugdev,users \
+    -m \
+    -s /bin/bash \
+    $DEV_USER
 
 # Add entrypoint to run gosu
 COPY entrypoint /
