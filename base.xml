@@ -5,7 +5,6 @@
 
   <remote name="yp"        fetch="https://git.yoctoproject.org"/>
   <remote name="oe"        fetch="https://github.com/openembedded"/>
-  <remote name="kraj"      fetch="https://github.com/kraj"/>
   <remote name="ossystems" fetch="https://github.com/OSSystems"/>
   <remote name="qt"        fetch="https://github.com/YoeDistro"/>
   <remote name="timesys"   fetch="https://github.com/TimesysGit"/>
@@ -17,8 +16,6 @@
   <project name="meta-yocto" remote="yp" path="sources/meta-yocto" revision="904846ae078ee20de073040ebb77c86e19250f56" upstream="master"/>
 
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="335045d3fb440cbb6de0716ffd7dd043bbd3f6ad" upstream="master"/>
-  <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="73460c53949658ab6c8b46269c3a69caccd3f745" upstream="whinlatter"/>
-  <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="cf20f8bd1366d41094c945597b95dd746e87b871" upstream="whinlatter"/>
   <project name="meta-security" remote="yp" path="sources/meta-security" revision="9265f142f3890df2d00d71d13b19e95a082707ed" upstream="master"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="4ba5825ee16fcded87f4d555b4ed7a7615dc67ac" upstream="master"/>
 
