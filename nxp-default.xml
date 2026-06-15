@@ -18,8 +18,6 @@
   <project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty" revision="[whinlatter-commit]" upstream="whinlatter"/>
   <project name="meta-freescale-distro" remote="community" path="sources/meta-freescale-distro" revision="[whinlatter-commit]" upstream="whinlatter"/>
 
-  <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="73460c53949658ab6c8b46269c3a69caccd3f745" upstream="whinlatter"/>
-
   <project name="meta-imx" remote="imx" path="sources/meta-imx" revision="[whinlatter-commit]" upstream="whinlatter">
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>

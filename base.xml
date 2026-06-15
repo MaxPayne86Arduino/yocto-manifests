@@ -13,9 +13,9 @@
 
   <project name="bitbake" remote="oe" path="sources/bitbake" revision="cb28befc56d201cace72d70891e731b955fb567f" upstream="master"/>
   <project name="openembedded-core" remote="oe" path="sources/openembedded-core" revision="42fa856a00ac16b2a7a83d7ecfa60a5be192b16c" upstream="master"/>
-  <project name="meta-yocto" remote="yp" path="sources/meta-yocto" revision="904846ae078ee20de073040ebb77c86e19250f56" upstream="master"/>
 
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="335045d3fb440cbb6de0716ffd7dd043bbd3f6ad" upstream="master"/>
+  <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="73460c53949658ab6c8b46269c3a69caccd3f745" upstream="whinlatter"/>
   <project name="meta-security" remote="yp" path="sources/meta-security" revision="9265f142f3890df2d00d71d13b19e95a082707ed" upstream="master"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="4ba5825ee16fcded87f4d555b4ed7a7615dc67ac" upstream="master"/>
 
