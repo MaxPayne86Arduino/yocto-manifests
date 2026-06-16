@@ -9,7 +9,7 @@
   <remote name="qt"        fetch="https://github.com/YoeDistro"/>
   <remote name="timesys"   fetch="https://github.com/TimesysGit"/>
   <remote name="uptane"    fetch="https://github.com/uptane"/>
-  <remote name="arduino"   fetch="https://github.com/MaxPayne86Arduino"/>
+  <remote name="arduino"   fetch="https://github.com/arduino"/>
 
   <project name="bitbake" remote="oe" path="sources/bitbake" revision="cb28befc56d201cace72d70891e731b955fb567f" upstream="master"/>
   <project name="openembedded-core" remote="oe" path="sources/openembedded-core" revision="42fa856a00ac16b2a7a83d7ecfa60a5be192b16c" upstream="master"/>
