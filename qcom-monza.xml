@@ -3,8 +3,6 @@
 
   <include name="qcom-default.xml"/>
 
-  <extend-project name="meta-qcom-3rdparty" remote="rsalveti" revision="ca09a43dd5ac48bc63282f541c963732480e3b45" upstream="qcom-next"/>
-
   <extend-project name="meta-arduino" revision="af97fd4f16a28658cb72d1adb448dff35e7efdbe"/>
 
 </manifest>

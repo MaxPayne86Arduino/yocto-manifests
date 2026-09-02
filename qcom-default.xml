@@ -7,12 +7,12 @@
   <remote name="rsalveti"    fetch="https://github.com/ricardosalveti"/>
   <remote name="audioreach"  fetch="https://github.com/AudioReach"/>
 
-  <project name="meta-qcom" remote="qcom" path="sources/meta-qcom" revision="2293ce86e90017e13b854f59b14a6ac6d6164ee2" upstream="master"/>
-  <project name="meta-qcom-3rdparty" remote="qcom" path="sources/meta-qcom-3rdparty" revision="e73c46c321a72aa481c9ff165a77365e5ee7f08e" upstream="main"/>
+  <project name="meta-qcom" remote="qcom" path="sources/meta-qcom" revision="7ccca1cfd401aa3c55904171024620d579a4eb0b" upstream="master"/>
+  <project name="meta-qcom-3rdparty" remote="qcom" path="sources/meta-qcom-3rdparty" revision="68b0c5901195204b8a6f51059985c513d6e81af8" upstream="main"/>
 
-  <extend-project name="meta-arm" revision="f3a2db0561d60aa0401beefe783ee91c8ebb3bcb" upstream="whinlatter"/>
+  <extend-project name="meta-arm" revision="b0ff16aba48a197070daff28ef7ad67067fd3d88" upstream="whinlatter"/>
 
-  <project name="meta-qcom-distro" remote="qcom" path="sources/meta-qcom-distro" revision="23c23d2a6e904418517cf66507c3078829ae7bdf" upstream="main"/>
-  <project name="meta-audioreach" remote="audioreach" path="sources/meta-audioreach" revision="4feaf103f9525e467fbefddbefd2e55465c88656" upstream="master"/>
+  <project name="meta-qcom-distro" remote="qcom" path="sources/meta-qcom-distro" revision="388722c4823d4d2422ab155c972a19decbd1ef73" upstream="main"/>
+  <project name="meta-audioreach" remote="audioreach" path="sources/meta-audioreach" revision="066142f374d074a0908afc14eb2c0bc6e1485611" upstream="master"/>
 
 </manifest>
