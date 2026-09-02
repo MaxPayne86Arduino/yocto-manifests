@@ -23,6 +23,6 @@
   <project name="meta-updater" remote="uptane" path="sources/meta-updater" revision="3f79539a8e1250c46d824b3af2415b9add945161" upstream="master"/>
   <project name="meta-selinux" remote="yp" path="sources/meta-selinux" revision="7351443c6579671bcf048817438f1740ad23eaab" upstream="master"/>
 
-  <project name="meta-arduino" remote="arduino" path="sources/meta-arduino" revision="6d923be15ba1931186e1a3257aaedb6b7f243151" upstream="master"/>
+  <project name="meta-arduino" remote="arduino" path="sources/meta-arduino" revision="de643b6658d902b4315920f65d756414bbf5198d" upstream="master"/>
 
 </manifest>
